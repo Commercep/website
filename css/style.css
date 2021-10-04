@@ -1,3 +1,9 @@
+::selection{
+  background: #5fcf80;
+  color: #fff;
+}
+
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
