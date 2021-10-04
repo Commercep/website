@@ -665,6 +665,8 @@ section {
   color: #848484;
 }
 
+
+
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
@@ -781,9 +783,11 @@ section {
 .trainers .member {
   text-align: center;
   margin-bottom: 20px;
+  margin-top: 20px;
   background: #fff;
-  border: 1px solid #eef0ef;
-}
+  border: 3px solid #5fcf80;
+  box-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+} 
 
 .trainers .member img {
   margin: -1px -1px 30px -1px;
@@ -1450,7 +1454,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #5fcf80;
+  color: #1f9242;
 }
 
 #footer .footer-newsletter {
@@ -1495,6 +1499,10 @@ section {
   transition: 0.3s;
   border-radius: 50px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.demo{
+  background: #764764;
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
